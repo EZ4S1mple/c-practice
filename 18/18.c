@@ -15,7 +15,7 @@ int main(
 {
   int n, d;
   int s = 0;
-  int m = 0; // s=Σ(n*10^(d-1));
+  int m = 0; // s=Σ(n*10^(d-1)) 1~d;
   scanf("%d %d", &n, &d);
 
   for (int i = 1; i <= d; i++)
